@@ -1,0 +1,48 @@
+.itens_curiosidades {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.itens_curiosidades li {
+    display: inline-block;    
+    text-align: center;
+    width: 23%;
+    margin: 0 0.8%;
+    vertical-align: top;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-top: 4px black solid;
+    border-bottom: 4px black solid;
+}
+
+.itens_curiosidades li:hover {
+    border-color: blue;
+    color: blue;
+}
+
+.itens_curiosidades li:active {
+    border-color: #db7311;
+    color: #db7311;
+}
+
+.itens_curiosidades h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.itens_curiosidades img {
+    margin: 20px 0;
+}
+
+.itens_curiosidades p {
+    width: 100%;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 0 10px;  
+    box-sizing: border-box;
+    height: 260px;
+}

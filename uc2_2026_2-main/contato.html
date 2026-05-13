@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Antigo</title>
+    <link href="css/menu_logo.css" rel="stylesheet">
+    <link href="css/rioantigo.css" rel="stylesheet">
+    <link href="css/contato.css" rel="stylesheet">
+    <link href="img/python.ico" rel="shortcut icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+            <h1 class="logo">
+                <img src="img/rioicon_125x125.png" alt="Logo do site">
+            </h1>
+            <nav class="hmenu">
+                <ul>
+                    <li><a href="rioantigo.html">Home</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="rioantigo_bs/index_bs.html">Rio Antigo BS</a></li>    
+                </ul>
+            </nav>
+        </div>        
+    </header>
+
+    <main class="conteudo-principal">
+
+        <div class="titulo-principal">
+            <h2>Converse conosco</h2>
+        </div>
+
+        <div class="divform">
+
+            <form name="frmContrato" id="idContrato" action="#" method="POST">
+
+                <fieldset>
+                    <div class="label">
+                        <label for="idNome">Nome</label>
+                    </div>
+                    <input type="text" id="idNome" name="nome" maxlength="70" placeholder="Digite seu nome" required> 
+
+                    <div class="label">
+                        <label for="idEmail">E-mail</label>
+                    </div>
+                    <input type="email" id="idEmail" name="email" maxlength="100" placeholder="Digite seu e-mail" required>
+
+                    <div class="label">
+                        <label for="idTelefone">Telefone</label>
+                    </div>
+                    <input type="tel" id="idTelefone" name="telefone" placeholder="Digite seu telefone" required>
+
+                    <div class="label">
+                        <label>Genero</label>
+                    </div>
+
+                    <input type="radio" id="idGeneroM" name="genero" value="M" class="radio">
+                    <label for="idGeneroM" name="genero" class="label-radio">Masculino</label>
+
+                    <input type="radio" id="idGeneroF" name="genero" value="F" class="radio">
+                    <label for="idGeneroF" name="genero" class="label-radio">Feminino</label>
+
+                    <input type="radio" id="idGeneroO" name="genero" value="O" class="radio">
+                    <label for="idGeneroO" name="genero" class="label-radio">Outros</label>
+
+                    <div class="label">
+                        <label for="idAssunto">Assunto</label>
+                    </div>
+                    <select name="assunto" id="idAssunto" required>
+                        <option value="0" selected>Selecione...</option>
+                        <option value="E">Elogio</option>
+                        <option value="C">Crítica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                    </select>
+
+                    <div class="label">
+                        <label for="idMensagem">Mensagem</label>
+                    </div>                        
+                    <textarea rows="10" cols="200" id="idMensagem" 
+                              name="mensagem" placeholder="Preencha com a mensagem desejada" 
+                              class="minhaTextArea"></textarea>
+
+                    <div class="botoes">
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <div>
+            <h3>Senac</h3>
+        </div>
+        <hr>
+        <div>
+            <h4>Fontes</h4>
+            <ul>
+                <li>E-mail: sobre@rj.senac.br</li>
+                <li>Contato: Alunos e professor do Senac</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

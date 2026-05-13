@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+h3 {
+    color: purple;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+.minha_cor_fonte {
+    color:brown;
+}
+#meu_paragrafo {
+    border-bottom: 1px solid rgb(90, 123, 39);
+}
+
